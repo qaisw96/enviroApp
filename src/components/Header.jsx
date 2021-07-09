@@ -4,19 +4,27 @@ import '../css/header.scss'
 export default function Header() {
     return (
         <div className="headerWrapper">
-            <header className="header">
-                <div className="logo">
-                    <h3 className="webName">السماد العضوي</h3>
-                </div>
-
-                <div className="categories">
-                    <ul>
-                        <li> <a href="">الصفحة الرئيسية </a> </li>
-                        <li> <a href="">مبادرات </a> </li>
-                        <li> <a href="">تواصل معنا</a> </li>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <a className="navbar-brand" href="#">سماد</a>
+                    <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">مبادرات</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">تواصل معنا</a>
+                        </li>
                     </ul>
+                    </div>
                 </div>
-            </header>
+            </nav>
         </div>
     )
 }

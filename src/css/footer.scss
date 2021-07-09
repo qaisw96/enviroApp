@@ -1,20 +1,10 @@
 .footer {
-    height: 200px;
+    max-width: 10000px;
+    height: 220px;
     padding: 20px;
     // background-image: linear-gradient(60deg, #96dedb6b 0%, #50c9c3 100%);  
     background-color: #9dfaaed0;  
-    display: flex;
+    // display: flex;
 
 
-    .part1 {
-        flex-grow: 2;
-    }
-
-    .part2 {
-        flex-grow: 1;
-    }
-
-    .part3 {
-        flex-grow: 1;
-    }
 }

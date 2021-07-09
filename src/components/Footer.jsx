@@ -4,8 +4,21 @@ import '../css/footer.scss'
 export default function Footer() {
     return (
         <footer className="footerWrapper">
-            <section className="footer">
-                <div className="part1">
+            <section className="container footer">
+                <div className="row">
+                    <div className="col-3">
+                        part 1
+                    </div>
+                    <div className="col">
+                        part 2
+                    </div>
+                    <div className="col">
+                        part 3
+                    </div>
+                </div>
+
+
+                {/* <div className="part1">
                     part1
                 </div>
                 <div className="part2">
@@ -13,7 +26,7 @@ export default function Footer() {
                 </div>
                 <div className="part3">
                     part3
-                </div>
+                </div> */}
 
             </section>
         </footer>
