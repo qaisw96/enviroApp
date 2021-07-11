@@ -10,11 +10,27 @@ export default function ContactUs() {
     return (
 
         <div className="contactUsSection">
-            <div class="list-group">
+            <div class="commenterList list-group">
                 <a class="list-group-item list-group-item-action " aria-current="true">
                     <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">مالك احمد</h5>
+                    <h5 class="commenterName mb-1">مالك احمد</h5>
                     <small>قبل يومين</small>
+                    </div>
+                    <p class="mb-1"></p>
+                    <small>And some small print.</small>
+                </a>
+                <a class="list-group-item list-group-item-action " aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="commenterName mb-1">هاني</h5>
+                    <small>منذ دقائق</small>
+                    </div>
+                    <p class="mb-1"></p>
+                    <small>And some small print.</small>
+                </a>
+                <a class="list-group-item list-group-item-action " aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h5 class="commenterName mb-1">سالي محمد</h5>
+                    <small>قبل ساعات</small>
                     </div>
                     <p class="mb-1"></p>
                     <small>And some small print.</small>

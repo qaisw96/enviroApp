@@ -19,11 +19,18 @@
         background-color: darkcyan;
         color: whitesmoke;
     }
-    
-    .list-group-item{
-        background-color: rgb(221, 224, 223);
-        border: none;
-        border-radius: 0px;
-        border-bottom: 2px black solid;
+    .commenterList {
+        margin-bottom: 30px;
+
+        .list-group-item{
+            background-color: rgba(221, 224, 223, 0.479);
+            border: none;
+            border-radius: 0px;
+            border-bottom: 1px olive solid;
+            .commenterName {
+                font-size: 10px;
+                color: olive;
+            }
+        }
     }
 }
