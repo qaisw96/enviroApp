@@ -1,42 +1,21 @@
 import React from 'react'
 import '../css/hero.scss'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap'; 
+
 
 
 export default function Hero() {
     return (
 
         <div className="hero-image" >
-        <nav class="navbar navbar-light" >
-        </nav>
-            {/* <img  src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /> */}
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="d-block w-100" alt="..."/>
-                </div>
-                <div className="carousel-item">
-                <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="d-block w-100" alt="..."/>
-                </div>
-                <div id="carouselExampleIndicators" className="carousel-item">
-                <img src="https://www.timeoutdubai.com/public/images/2020/07/13/IMG-Dubai-UAE.jpg" className="d-block w-100" alt="..."/>
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">تفاصيل الصورة</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-            </div>
+
         </div>
     )
 }

@@ -1,38 +1,13 @@
 .aboutUsWrapper {
-    height: 450px;
+    margin-top: 70px;
+
+    .card {
+        margin-bottom: 70px !important;
+
+        .card-header {
+            background-color: rgba(144, 238, 144, 0.678);
+        }
+    }
+    
 }
 
-.aboutUs {
-    background-color: rgba(255, 255, 255, 0.637);
-    height: 390px;
-    padding: 20px ;
-    // background-color: black;
-
-    .lines {
-
-        h3 {
-            border-bottom: 1px black solid;
-            padding-bottom: 8px;
-            letter-spacing: 1.5px;
-        }
-
-        p {
-            margin-top: 10px;
-            letter-spacing: 1.5px;
-
-            span {
-                font-size: 35px;
-                color: rgb(4, 167, 167);
-            }
-        }
-
-    }
-
-    .ourPurpose {
-        height: 140px;
-    }
-
-    .whoAreWe {
-
-    }
-}

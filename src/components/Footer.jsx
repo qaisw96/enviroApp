@@ -7,27 +7,15 @@ export default function Footer() {
             <section className="container footer">
                 <div className="row">
                     <div className="col-3">
-                        part 1
+                        عن سماد
                     </div>
                     <div className="col">
-                        part 2
+                        فرص التطوع
                     </div>
-                    <div className="col">
-                        part 3
+                    <div id="contactUs" className="col">
+                        اتصل بنا
                     </div>
                 </div>
-
-
-                {/* <div className="part1">
-                    part1
-                </div>
-                <div className="part2">
-                    part2
-                </div>
-                <div className="part3">
-                    part3
-                </div> */}
-
             </section>
         </footer>
     )

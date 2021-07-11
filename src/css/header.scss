@@ -2,6 +2,8 @@ $primary-color:  lightgreen;
 $secondary-color:  olive;
 
 
+/*----------- container -------------*/
+
 .container {
 
     .navbar-brand {
@@ -25,6 +27,27 @@ $secondary-color:  olive;
     transition: all .5s;
 }
 
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-right: 12px;
+    transition: all .5s ;
+    
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+    background-color: darkcyan;
+    border:$secondary-color 1px solid;
+    padding-right: 10px;
+   
+}
+
+
+
+/*-------------- onScroll -------------*/
 
 .scroll {
     background-color: darkcyan !important ;
@@ -40,6 +63,10 @@ $secondary-color:  olive;
         border:$secondary-color 1px solid;
         padding-right: 10px;
     
+    }
+
+    .navbar-toggler {
+        background-color: whitesmoke;
     }
 
     .navbar-brand {
@@ -63,32 +90,12 @@ $secondary-color:  olive;
 
 }
 
-.navbar-nav {
-    margin: auto;
-}
-
-.nav-link {
-    
-    margin-right: 12px;
-    transition: all .5s ;
-    
-}
-
-.nav-link:hover {
-    color: whitesmoke !important;
-    background-color: darkcyan;
-    border:$secondary-color 1px solid;
-    padding-right: 10px;
-   
-}
 
 
-/* ----------------------------*/ 
+/* ------------- media ---------------*/ 
 @media screen and (max-width:630px) {
     .navbar-nav {
         margin-top: 10px;
     }
 }
 
-
-  
