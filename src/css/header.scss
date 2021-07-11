@@ -1,0 +1,101 @@
+$primary-color:  lightgreen;
+$secondary-color:  olive;
+
+
+/*----------- container -------------*/
+
+.container {
+
+    .navbar-brand {
+        transition: all .5s;
+    }
+    .navbar-brand:hover {
+        color:$secondary-color;
+    }
+}
+
+.headerWrapper {
+    height: 120px;
+    position: relative;
+}
+
+.navbar {
+    max-width:10000px;
+    padding-right:25px;
+    padding-left:25px;
+    border-bottom: lightseagreen 1px solid;
+    transition: all .5s;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-right: 12px;
+    transition: all .5s ;
+    
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+    background-color: darkcyan;
+    border:$secondary-color 1px solid;
+    padding-right: 10px;
+   
+}
+
+
+
+/*-------------- onScroll -------------*/
+
+.scroll {
+    background-color: darkcyan !important ;
+
+    .nav-link {
+        color: whitesmoke !important;
+        transition: all .5s;
+    }
+
+    .nav-link:hover {
+        color: black !important;
+        background-color: whitesmoke;
+        border:$secondary-color 1px solid;
+        padding-right: 10px;
+    
+    }
+
+    .navbar-toggler {
+        background-color: whitesmoke;
+    }
+
+    .navbar-brand {
+        color: whitesmoke !important;
+        transition: all .5s;
+    }
+    .navbar-brand:hover {
+        color:  darkgreen !important;
+        
+    }
+    
+    .navbar-toggler-icon {
+        color: rgb(231, 219, 219) !important;
+        transition: all .5s;
+        
+    }
+
+    .navbar-toggler-icon:hover {
+        color: whitesmoke !important;
+    }
+
+}
+
+
+
+/* ------------- media ---------------*/ 
+@media screen and (max-width:630px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
+
