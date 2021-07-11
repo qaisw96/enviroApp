@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
 import Initiatives from './components/Initiatives'
+import ContactUs from './components/ContactUs'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 
@@ -26,6 +27,14 @@ function App() {
           <Header />
             <div className="app">
               <Initiatives />
+            </div>
+          <Footer />
+      </Route>
+
+      <Route  path="/contact">
+          <Header />
+            <div className="app">
+              <ContactUs />
             </div>
           <Footer />
       </Route>

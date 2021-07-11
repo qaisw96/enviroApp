@@ -1,0 +1,29 @@
+.contactUsSection {
+    width: 40vw;
+
+    .contactForm {
+        display: flex
+    }
+    .contactCommentLabel {
+        right: 0;
+        color: lightgrey;
+    }
+
+    .contactFormControl {
+        width: 50vw;
+        resize: none;
+        // max-height: 80px;
+    }
+
+    .addCommentBtn {
+        background-color: darkcyan;
+        color: whitesmoke;
+    }
+    
+    .list-group-item{
+        background-color: rgb(221, 224, 223);
+        border: none;
+        border-radius: 0px;
+        border-bottom: 2px black solid;
+    }
+}
