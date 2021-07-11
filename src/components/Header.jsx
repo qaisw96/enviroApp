@@ -33,7 +33,7 @@ export default function Header() {
                                 <Link to="/initiatives" className="nav-link active" aria-current="page" href="#">مبادرات</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#contactUs">تواصل معنا</a>
+                                <Link to="/contact" className="nav-link active" aria-current="page">تواصل معنا</Link>
                             </li>
                         </ul>
                     </div>

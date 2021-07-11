@@ -12,7 +12,7 @@ export default function Initiatives() {
         <div className="initiativesSection">
             {initiatives.map(elm => {
                return (
-                    <div class="card mb-3" >
+                    <div key={elm.name} class="card mb-3" >
                         <div class="row g-0">
                             <div class="col-md-4">
                             <img src={elm.image} class="initiativeImage img-fluid rounded-start" alt="..." />
